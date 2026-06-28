@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F5F5F5"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#127464;&#127475; &#49373;&#54876; &#51473;&#44397;&#50612;"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#C62828"
+        android:layout_marginBottom="4dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25&#44060; &#54540;&#49900; &#45800;&#50612; &#50545;&#44592;&#52852;&#46300;"
+        android:textSize="14sp"
+        android:textColor="#757575"
+        android:layout_marginBottom="32dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/card_bg"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="1&#49457; " android:textColor="#E53935" android:textStyle="bold" android:textSize="13sp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="2&#49457; " android:textColor="#FB8C00" android:textStyle="bold" android:textSize="13sp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="3&#49457; " android:textColor="#43A047" android:textStyle="bold" android:textSize="13sp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="4&#49457; " android:textColor="#1E88E5" android:textStyle="bold" android:textSize="13sp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="&#44221;&#49457;" android:textColor="#9E9E9E" android:textStyle="bold" android:textSize="13sp"/>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvStats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#51204;&#52404; 25&#44060; &#183; &#52712;&#50557; 0&#44060; &#183; &#50756;&#51204;&#50545;&#44592; 0&#44060;"
+        android:textSize="13sp"
+        android:textColor="#616161"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="&#51204;&#52404; &#52852;&#46300; &#54617;&#49845; (25&#44060;)"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#C62828"
+        android:onClick="startAllMode"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btnWeakMode"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="&#52712;&#50557; &#52852;&#46300; &#48152;&#48373;"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#E65100"
+        android:onClick="startWeakMode"
+        android:layout_marginBottom="32dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="&#54617;&#49845; &#44592;&#47197; &#52488;&#44592;&#54868;"
+        android:textSize="13sp"
+        android:textColor="#9E9E9E"
+        android:backgroundTint="#E0E0E0"
+        android:onClick="resetProgress"/>
+
+</LinearLayout>
